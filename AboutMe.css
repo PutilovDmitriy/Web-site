@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700&subset=cyrillic,cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700&subset=cyrillic,cyrillic-ext');
+@font-face {
+  font-family: ClearSans
+}
+body{d
+  width: 100%;
+  font-family: 'Open Sans', arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 10em;
+  padding: 0 15px;
+  background-image: url(\joshua-aragon-1247600-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* .my-name {
+  border: 1px solid white;
+}
+.phone-number {
+  border: 1px solid white;
+} */
+header h1 {
+/* border: 1px solid red; */
+margin: 0;
+font-family: 'Comfortaa', cursive;
+color: #0097f5;
+text-shadow: 2px -2px 2px #003454;
+}
+.phone-number p {
+margin: 0;
+line-height: 1.4;
+font-family: 'Comfortaa', cursive;
+color: white;
+text-shadow: 2px -2px 2px #003454;
+}
+
+@media (max-width: 768px) {
+header h1  {
+  font-size: 150%;
+  }
+.phone-number p {
+  font-size: 75%;
+}
+.phone-number p, header h1  {
+    text-align: center;
+  }
+}
+@media (max-width: 480px)  {
+header {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+}
+@media (max-width: 289px) {
+header h1 {
+  font-size: 100%;
+  }
+.phone-number p {
+  font-size: 50%;
+}
+}
