@@ -3,20 +3,22 @@
 @font-face {
   font-family: ClearSans
 }
-body{d
+body{
   width: 100%;
   font-family: 'Open Sans', arial, sans-serif;
   padding: 0;
   margin: 0;
 }
 header{
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: auto;
   height: 10em;
   padding: 0 15px;
-  background-image: url(\joshua-aragon-1247600-unsplash.jpg);
+  background-image: url(‪\fon.jpg);
+  /* background-image: url(\joshua-aragon-1247600-unsplash.jpg); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
