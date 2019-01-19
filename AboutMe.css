@@ -8,6 +8,7 @@ body{
   font-family: 'Open Sans', arial, sans-serif;
   padding: 0;
   margin: 0;
+  background-color: black;
 }
 
 /* Header сайта*/
@@ -50,8 +51,13 @@ text-shadow: 2px -2px 2px #003454;
 
 /*footer */
 footer {
-background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-
+}
+.social a {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: #46bea0;
+  border-radius: 50%;
 }
 /*media*/
 
