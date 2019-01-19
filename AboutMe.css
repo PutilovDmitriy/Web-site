@@ -9,6 +9,9 @@ body{
   padding: 0;
   margin: 0;
 }
+
+/* Header сайта*/
+
 header{
   display: flex;
   justify-content: space-between;
@@ -34,6 +37,13 @@ font-family: 'Comfortaa', cursive;
 color: #0097f5;
 text-shadow: 2px -2px 2px #003454;
 }
+a {
+  text-decoration: none;
+}
+header span {
+margin-right: 10px;
+color: #c4d5f5;
+}
 .phone-number p {
 margin: 0;
 line-height: 1.4;
@@ -41,6 +51,14 @@ font-family: 'Comfortaa', cursive;
 color: white;
 text-shadow: 2px -2px 2px #003454;
 }
+
+
+/*footer */
+footer {
+background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+
+}
+/*media*/
 
 @media (max-width: 768px) {
 header h1  {
