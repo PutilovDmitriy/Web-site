@@ -19,17 +19,12 @@ header{
   width: auto;
   height: 10em;
   padding: 0 15px;
-  background-image: url(\joshua-aragon-1247600-unsplash.jpg);
+  background-image: url(\headeraaaaa.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-/* .my-name {
-  border: 1px solid white;
-}
-.phone-number {
-  border: 1px solid white;
-} */
+
 header h1 {
 /* border: 1px solid red; */
 margin: 0;
@@ -45,7 +40,7 @@ margin-right: 10px;
 color: #c4d5f5;
 }
 .phone-number p {
-margin: 0;
+margin: 4px 0 -4px 0;
 line-height: 1.4;
 font-family: 'Comfortaa', cursive;
 color: white;
@@ -76,6 +71,12 @@ header {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+header h1,.phone-number p  {
+  text-shadow: 1px -1px 2px #003454;
+}
+.phone-number p {
+margin: 3px 0 -3px 0;
 }
 }
 @media (max-width: 289px) {
