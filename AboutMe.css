@@ -4,10 +4,13 @@
   font-family: ClearSans
 }
 body{
+  height: 100%;
   width: 100%;
   font-family: 'Open Sans', arial, sans-serif;
   padding: 0;
   margin: 0;
+}
+.all {
 }
 
 /* Header сайта*/
@@ -26,7 +29,6 @@ header{
 }
 
 header h1 {
-/* border: 1px solid red; */
 margin: 0;
 font-family: 'Comfortaa', cursive;
 color: #0097f5;
@@ -47,6 +49,11 @@ color: white;
 text-shadow: 2px -2px 2px #003454;
 }
 
+/*Основная часть*/
+main {
+  min-height: calc(100vh - 17em);
+}
+
 
 /*footer */
 footer {
@@ -54,6 +61,8 @@ footer {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  height: 7em;
+  background-color: #2a2a2a;
 }
 .number-mail {
   display: flex;
@@ -62,14 +71,19 @@ footer {
   align-items: center;
 }
 .number-mail a {
+  color: #ab40ff;
+  font-family: 'Comfortaa', cursive;
+  font-size: 150%;
+  font-weight: bold;
   margin: 0;
-  text-align:  center;
+  text-align: center;
+  text-shadow: 2px -2px 1px #490082;
 }
 .social a {
   display: inline-block;
   position: relative;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   background-color: #46bea0;
   border-radius: 50%;
 }
@@ -77,9 +91,9 @@ img {
   position: absolute;
   top: 50%;
   left:50%;
-  margin: -20px 0 0 -20px;
-  width: 40px;
-  height: 40px;
+  margin: -10px 0 0 -10px;
+  width: 20px;
+  height: 20px;
 }
 /*media*/
 
@@ -93,6 +107,9 @@ header h1  {
 .phone-number p, header h1  {
     text-align: center;
   }
+.number-mail a {
+  font-size: 125%;
+}
 }
 @media (max-width: 480px)  {
 header {
@@ -105,6 +122,10 @@ header h1,.phone-number p  {
 }
 .phone-number p {
 margin: 3px 0 -3px 0;
+}
+.number-mail a {
+  font-size: 100%;
+  text-shadow: 2px -2px 1px #490082;
 }
 }
 @media (max-width: 289px) {
