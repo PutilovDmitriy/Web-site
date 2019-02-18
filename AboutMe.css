@@ -71,7 +71,7 @@ footer {
   align-items: center;
 }
 .number-mail a {
-  color: #ab40ff;
+  color: #92bef7;
   font-family: 'Comfortaa', cursive;
   font-size: 150%;
   font-weight: bold;
@@ -117,15 +117,15 @@ header {
   justify-content: space-around;
   align-items: center;
 }
-header h1,.phone-number p  {
+header h1,.phone-number p {
   text-shadow: 1px -1px 2px #003454;
 }
 .phone-number p {
 margin: 3px 0 -3px 0;
 }
 .number-mail a {
+  text-shadow: 1px -1px 1px #490082;
   font-size: 100%;
-  text-shadow: 2px -2px 1px #490082;
 }
 }
 @media (max-width: 289px) {
